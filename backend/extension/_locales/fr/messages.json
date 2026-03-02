@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Guardian Shield",
+    "description": "Nom de l'extension"
+  },
+  "extensionDescription": {
+    "message": "Suite de sécurité gratuite — protège contre le phishing, les arnaques, les malwares et la fraude en ligne.",
+    "description": "Description de l'extension dans le store"
+  }
+}
