@@ -1,0 +1,170 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-brokers-investment.json",
+  "_description": "Officiële domeinen van brokers, beleggingsplatformen en fintechs beschikbaar in België en Nederland. Bevat zowel lokale als buitenlandse platformen die actief diensten aanbieden aan BE/NL-inwoners.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    {
+      "name": "Saxo Bank",
+      "domains": ["home.saxo", "saxobank.com", "saxotrader.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DK", "DE", "FR", "GB"],
+      "note": "Deense bank met kantoren in Antwerpen en Amsterdam. BinckBank (BE) is opgegaan in Saxo."
+    },
+    {
+      "name": "Bolero (KBC)",
+      "domains": ["bolero.be"],
+      "category": "broker",
+      "available_in": ["BE"],
+      "note": "Belgische broker van KBC. Belgian OnLine Exchange Realtime Operated."
+    },
+    {
+      "name": "Re=Bel (Belfius)",
+      "domains": ["rebel.belfius.be"],
+      "category": "broker",
+      "available_in": ["BE"],
+      "note": "Beleggingsplatform van Belfius bank."
+    },
+    {
+      "name": "DEGIRO",
+      "domains": ["degiro.com", "degiro.nl", "degiro.be", "degiro.fr", "degiro.de", "degiro.co.uk"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Nederlandse broker, onderdeel van flatexDEGIRO AG. Populair in Benelux voor lage kosten."
+    },
+    {
+      "name": "flatex",
+      "domains": ["flatex.de", "flatex.nl", "flatex.at", "flatexdegiro.com"],
+      "category": "broker",
+      "available_in": ["NL", "DE", "AT"],
+      "note": "Moederbedrijf van DEGIRO."
+    },
+    {
+      "name": "Trade Republic",
+      "domains": ["traderepublic.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "note": "Duitse neobroker met banklicentie. Gratis ETF-spaarplannen."
+    },
+    {
+      "name": "Interactive Brokers",
+      "domains": ["interactivebrokers.com", "interactivebrokers.eu", "interactivebrokers.co.uk", "ibkr.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "note": "Professionele broker. EU-entiteit in Ierland/Hongarije."
+    },
+    {
+      "name": "LYNX",
+      "domains": ["lynx.be", "lynx.nl"],
+      "category": "broker",
+      "available_in": ["BE", "NL"],
+      "note": "Nederlandse introducing broker, werkt via Interactive Brokers."
+    },
+    {
+      "name": "MEXEM",
+      "domains": ["mexem.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL"],
+      "note": "Belgische introducing broker, werkt via Interactive Brokers."
+    },
+    {
+      "name": "BUX",
+      "domains": ["bux.com", "getbux.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "note": "Nederlandse neobroker voor aandelen en ETFs."
+    },
+    {
+      "name": "eToro",
+      "domains": ["etoro.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Sociaal tradingplatform. Let op: CFDs niet beschikbaar voor Belgen (FSMA-verbod)."
+    },
+    {
+      "name": "Lightyear",
+      "domains": ["lightyear.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Estse broker, populair voor commissievrije ETFs."
+    },
+    {
+      "name": "Freedom24",
+      "domains": ["freedom24.com", "freedomfinance.eu"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "note": "EU-gereguleerde broker (Cyprus). Aandelen, ETFs, obligaties en opties."
+    },
+    {
+      "name": "Trading 212",
+      "domains": ["trading212.com"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Commissievrije broker voor aandelen en ETFs."
+    },
+    {
+      "name": "Wise (TransferWise)",
+      "domains": ["wise.com"],
+      "category": "fintech",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "note": "Internationaal geldtransferplatform met multi-currency rekening."
+    },
+    {
+      "name": "Revolut",
+      "domains": ["revolut.com"],
+      "category": "neobank",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Britse neobank met banklicentie. Biedt ook beleggen en crypto."
+    },
+    {
+      "name": "N26",
+      "domains": ["n26.com"],
+      "category": "neobank",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "note": "Duitse neobank met volledige banklicentie (ECB)."
+    },
+    {
+      "name": "Bunq",
+      "domains": ["bunq.com", "bunq.nl"],
+      "category": "neobank",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "note": "Nederlandse neobank met DNB-banklicentie."
+    },
+    {
+      "name": "MeDirect",
+      "domains": ["medirect.be"],
+      "category": "broker",
+      "available_in": ["BE"],
+      "note": "Belgische online bank en broker. Commissievrije ETFs sinds augustus 2025."
+    },
+    {
+      "name": "Curvo",
+      "domains": ["curvo.eu"],
+      "category": "robo_advisor",
+      "available_in": ["BE"],
+      "note": "Belgische robo-advisor voor passief indexbeleggen."
+    },
+    {
+      "name": "Easybroker",
+      "domains": ["easybroker.be"],
+      "category": "broker",
+      "available_in": ["BE"],
+      "note": "Belgische online broker."
+    },
+    {
+      "name": "ING Self Invest",
+      "domains": ["selfinvest.ing.be"],
+      "category": "broker",
+      "available_in": ["BE"],
+      "note": "Beleggingsplatform van ING België."
+    },
+    {
+      "name": "Swissquote",
+      "domains": ["swissquote.com", "swissquote.eu"],
+      "category": "broker",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "note": "Zwitserse online bank en broker."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-us.json",
+  "_description": "Officiële domeinen van Amerikaanse banken, overheid en grote diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    { "name": "Chase (JPMorgan)", "domains": ["chase.com", "jpmorgan.com"], "category": "bank", "country": "US" },
+    { "name": "Bank of America", "domains": ["bankofamerica.com"], "category": "bank", "country": "US" },
+    { "name": "Wells Fargo", "domains": ["wellsfargo.com"], "category": "bank", "country": "US" },
+    { "name": "Citibank", "domains": ["citi.com", "citibank.com"], "category": "bank", "country": "US" },
+    { "name": "Capital One", "domains": ["capitalone.com"], "category": "bank", "country": "US" },
+    { "name": "US Bank", "domains": ["usbank.com"], "category": "bank", "country": "US" },
+    { "name": "PNC", "domains": ["pnc.com"], "category": "bank", "country": "US" },
+    { "name": "TD Bank", "domains": ["td.com", "tdbank.com"], "category": "bank", "country": "US" },
+    { "name": "Charles Schwab", "domains": ["schwab.com"], "category": "bank", "country": "US" },
+    { "name": "Fidelity", "domains": ["fidelity.com"], "category": "bank", "country": "US" },
+    { "name": "Ally Bank", "domains": ["ally.com"], "category": "bank", "country": "US" },
+    { "name": "Discover", "domains": ["discover.com"], "category": "bank", "country": "US" },
+    { "name": "American Express", "domains": ["americanexpress.com", "amex.com"], "category": "bank", "country": "US" },
+    { "name": "IRS (Belastingen)", "domains": ["irs.gov"], "category": "government", "country": "US" },
+    { "name": "SSA (Social Security)", "domains": ["ssa.gov"], "category": "government", "country": "US" },
+    { "name": "USA.gov", "domains": ["usa.gov"], "category": "government", "country": "US" },
+    { "name": "USPS (Post)", "domains": ["usps.com"], "category": "postal", "country": "US" },
+    { "name": "FedEx", "domains": ["fedex.com"], "category": "postal", "country": "US" },
+    { "name": "UPS", "domains": ["ups.com"], "category": "postal", "country": "US" },
+    { "name": "CISA (Cybersecurity)", "domains": ["cisa.gov"], "category": "cybersecurity", "country": "US" },
+    { "name": "FTC (Consumer Protection)", "domains": ["ftc.gov", "consumer.ftc.gov", "reportfraud.ftc.gov"], "category": "government", "country": "US" }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-government-nl.json",
+  "_description": "Officiële domeinen van Nederlandse overheidsinstanties en publieke diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    {
+      "name": "Rijksoverheid",
+      "domains": ["rijksoverheid.nl", "government.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "MijnOverheid",
+      "domains": ["mijnoverheid.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "DigiD",
+      "domains": ["digid.nl", "mijn.digid.nl", "was.digid.nl"],
+      "category": "identity",
+      "country": "NL"
+    },
+    {
+      "name": "Belastingdienst",
+      "domains": ["belastingdienst.nl", "mijn.belastingdienst.nl", "toeslagen.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "DUO (Studiefinanciering)",
+      "domains": ["duo.nl", "mijn.duo.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "UWV",
+      "domains": ["uwv.nl", "werk.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "SVB (Sociale Verzekeringsbank)",
+      "domains": ["svb.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "CBS (Centraal Bureau voor de Statistiek)",
+      "domains": ["cbs.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "RDW",
+      "domains": ["rdw.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Kadaster",
+      "domains": ["kadaster.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Politie",
+      "domains": ["politie.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Rechtspraak",
+      "domains": ["rechtspraak.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Rijkswaterstaat",
+      "domains": ["rijkswaterstaat.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "RIVM",
+      "domains": ["rivm.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "PostNL",
+      "domains": ["postnl.nl", "postnl.com", "postnl.post"],
+      "category": "postal",
+      "country": "NL"
+    },
+    {
+      "name": "NS (Nederlandse Spoorwegen)",
+      "domains": ["ns.nl", "nsinternational.com"],
+      "category": "transport",
+      "country": "NL"
+    },
+    {
+      "name": "9292 (OV reisplanner)",
+      "domains": ["9292.nl"],
+      "category": "transport",
+      "country": "NL"
+    },
+    {
+      "name": "OV-chipkaart",
+      "domains": ["ov-chipkaart.nl"],
+      "category": "transport",
+      "country": "NL"
+    },
+    {
+      "name": "KPN",
+      "domains": ["kpn.com", "kpn.nl", "mijnkpn.nl"],
+      "category": "telecom",
+      "country": "NL"
+    },
+    {
+      "name": "T-Mobile NL",
+      "domains": ["t-mobile.nl", "odido.nl"],
+      "category": "telecom",
+      "country": "NL"
+    },
+    {
+      "name": "Vodafone / Ziggo",
+      "domains": ["vodafone.nl", "ziggo.nl", "vodafoneziggo.nl"],
+      "category": "telecom",
+      "country": "NL"
+    },
+    {
+      "name": "KVK (Kamer van Koophandel)",
+      "domains": ["kvk.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "NCSC (Nationaal Cyber Security Centrum)",
+      "domains": ["ncsc.nl"],
+      "category": "cybersecurity",
+      "country": "NL"
+    },
+    {
+      "name": "Fraudehelpdesk",
+      "domains": ["fraudehelpdesk.nl"],
+      "category": "cybersecurity",
+      "country": "NL"
+    },
+    {
+      "name": "Veiliginternetten",
+      "domains": ["veiliginternetten.nl"],
+      "category": "cybersecurity",
+      "country": "NL"
+    },
+    {
+      "name": "Gemeente Amsterdam",
+      "domains": ["amsterdam.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Gemeente Rotterdam",
+      "domains": ["rotterdam.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Gemeente Den Haag",
+      "domains": ["denhaag.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Gemeente Utrecht",
+      "domains": ["utrecht.nl"],
+      "category": "government",
+      "country": "NL"
+    },
+    {
+      "name": "Zorgverzekeringslijn",
+      "domains": ["zorgverzekeringslijn.nl"],
+      "category": "healthcare",
+      "country": "NL"
+    },
+    {
+      "name": "CZ",
+      "domains": ["cz.nl"],
+      "category": "healthcare",
+      "country": "NL"
+    },
+    {
+      "name": "Menzis",
+      "domains": ["menzis.nl"],
+      "category": "healthcare",
+      "country": "NL"
+    },
+    {
+      "name": "Zilveren Kruis",
+      "domains": ["zilverenkruis.nl"],
+      "category": "healthcare",
+      "country": "NL"
+    },
+    {
+      "name": "VGZ",
+      "domains": ["vgz.nl"],
+      "category": "healthcare",
+      "country": "NL"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-uk.json",
+  "_description": "Officiële domeinen van Britse banken, overheid en grote diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    { "name": "Barclays", "domains": ["barclays.co.uk", "barclays.com"], "category": "bank", "country": "GB" },
+    { "name": "HSBC", "domains": ["hsbc.co.uk", "hsbc.com"], "category": "bank", "country": "GB" },
+    { "name": "Lloyds Bank", "domains": ["lloydsbank.com", "lloydsbank.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "NatWest", "domains": ["natwest.com"], "category": "bank", "country": "GB" },
+    { "name": "Halifax", "domains": ["halifax.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "Santander UK", "domains": ["santander.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "Nationwide", "domains": ["nationwide.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "TSB", "domains": ["tsb.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "Monzo", "domains": ["monzo.com"], "category": "bank", "country": "GB" },
+    { "name": "Starling Bank", "domains": ["starlingbank.com"], "category": "bank", "country": "GB" },
+    { "name": "Revolut", "domains": ["revolut.com"], "category": "bank", "country": "GB" },
+    { "name": "Royal Bank of Scotland", "domains": ["rbs.co.uk"], "category": "bank", "country": "GB" },
+    { "name": "GOV.UK", "domains": ["gov.uk", "www.gov.uk"], "category": "government", "country": "GB" },
+    { "name": "HMRC (Belastingen)", "domains": ["tax.service.gov.uk"], "category": "government", "country": "GB" },
+    { "name": "NHS", "domains": ["nhs.uk", "www.nhs.uk"], "category": "healthcare", "country": "GB" },
+    { "name": "DVLA", "domains": ["dvla.gov.uk"], "category": "government", "country": "GB" },
+    { "name": "Royal Mail", "domains": ["royalmail.com"], "category": "postal", "country": "GB" },
+    { "name": "NCSC (Cybersecurity)", "domains": ["ncsc.gov.uk"], "category": "cybersecurity", "country": "GB" },
+    { "name": "Action Fraud", "domains": ["actionfraud.police.uk"], "category": "cybersecurity", "country": "GB" }
+  ]
+}

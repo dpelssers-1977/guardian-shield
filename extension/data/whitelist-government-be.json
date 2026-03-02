@@ -1,0 +1,249 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-government-be.json",
+  "_description": "Officiële domeinen van Belgische overheidsinstanties en publieke diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    {
+      "name": "Belgium.be (Federale overheid)",
+      "domains": ["belgium.be", "www.belgium.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "MijnMinfin (Belastingen)",
+      "domains": ["myminfin.be", "eservices.minfin.fgov.be", "financien.belgium.be", "minfin.fgov.be", "finances.belgium.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "FOD Financiën",
+      "domains": ["fiscus.fgov.be", "tax-on-web.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "CSAM (Toegangsbeheer)",
+      "domains": ["csam.be", "fas.csam.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "eID / Identiteitskaart",
+      "domains": ["eid.belgium.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Sociale Zekerheid",
+      "domains": ["socialsecurity.be", "rsz.be", "onss.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Mijn Burgerprofiel (Vlaanderen)",
+      "domains": ["burgerprofiel.vlaanderen.be", "vlaanderen.be", "www.vlaanderen.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "VDAB",
+      "domains": ["vdab.be", "www.vdab.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Actiris (Brussel)",
+      "domains": ["actiris.brussels", "actiris.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Le Forem (Wallonië)",
+      "domains": ["leforem.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "RIZIV / INAMI",
+      "domains": ["riziv.be", "inami.be", "riziv.fgov.be", "inami.fgov.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Ziekenfondsen / Mutualiteiten",
+      "domains": ["cm.be", "christelijkemutualiteit.be", "socmut.be", "fsmb.be", "mloz.be", "helan.be", "partena.be", "partenamut.be", "onafhankelijkeziekenfondsen.be"],
+      "category": "healthcare",
+      "country": "BE"
+    },
+    {
+      "name": "MijnGezondheid",
+      "domains": ["mijngezondheid.belgie.be", "masante.belgique.be"],
+      "category": "healthcare",
+      "country": "BE"
+    },
+    {
+      "name": "CovidSafe (certificaten)",
+      "domains": ["covidsafe.be"],
+      "category": "healthcare",
+      "country": "BE"
+    },
+    {
+      "name": "Politie",
+      "domains": ["police.be", "politie.be", "polizei.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Justitie",
+      "domains": ["justitie.belgium.be", "justice.belgium.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Bpost",
+      "domains": ["bpost.be", "bpost.com"],
+      "category": "postal",
+      "country": "BE"
+    },
+    {
+      "name": "NMBS / SNCB",
+      "domains": ["belgiantrain.be", "nmbs.be", "sncb.be", "b-rail.be"],
+      "category": "transport",
+      "country": "BE"
+    },
+    {
+      "name": "De Lijn",
+      "domains": ["delijn.be"],
+      "category": "transport",
+      "country": "BE"
+    },
+    {
+      "name": "TEC",
+      "domains": ["infotec.be", "letec.be"],
+      "category": "transport",
+      "country": "BE"
+    },
+    {
+      "name": "MIVB / STIB",
+      "domains": ["stib-mivb.be", "mivb.be", "stib.be"],
+      "category": "transport",
+      "country": "BE"
+    },
+    {
+      "name": "FOD Binnenlandse Zaken",
+      "domains": ["ibz.be", "ibz.fgov.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "FOD Buitenlandse Zaken",
+      "domains": ["diplomatie.belgium.be", "diplomatie.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Safeonweb (CERT.be / CCB)",
+      "domains": ["safeonweb.be", "cert.be", "ccb.belgium.be"],
+      "category": "cybersecurity",
+      "country": "BE"
+    },
+    {
+      "name": "FOD Economie",
+      "domains": ["economie.fgov.be", "statbel.fgov.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Kind en Gezin / Opgroeien",
+      "domains": ["kindengezin.be", "opgroeien.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Rijksregister",
+      "domains": ["rrn.fgov.be", "rn-rr.fgov.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Proximus",
+      "domains": ["proximus.be", "proximus.com", "myproximus.be"],
+      "category": "telecom",
+      "country": "BE"
+    },
+    {
+      "name": "Telenet",
+      "domains": ["telenet.be", "telenet.com", "base.be"],
+      "category": "telecom",
+      "country": "BE"
+    },
+    {
+      "name": "Orange Belgium",
+      "domains": ["orange.be"],
+      "category": "telecom",
+      "country": "BE"
+    },
+    {
+      "name": "VOO",
+      "domains": ["voo.be"],
+      "category": "telecom",
+      "country": "BE"
+    },
+    {
+      "name": "Engie Electrabel",
+      "domains": ["engie.be", "engie-electrabel.be", "myengie.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Luminus",
+      "domains": ["luminus.be", "myluminus.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Fluvius",
+      "domains": ["fluvius.be", "mijnfluvius.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Eandis / Infrax",
+      "domains": ["eandis.be", "infrax.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Watergroep",
+      "domains": ["dewatergroep.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Farys / TMVW",
+      "domains": ["farys.be"],
+      "category": "energy",
+      "country": "BE"
+    },
+    {
+      "name": "Vlaamse Belastingdienst",
+      "domains": ["belastingen.vlaanderen.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Onderwijs Vlaanderen",
+      "domains": ["onderwijs.vlaanderen.be"],
+      "category": "government",
+      "country": "BE"
+    },
+    {
+      "name": "Wonen Vlaanderen",
+      "domains": ["wonenvlaanderen.be"],
+      "category": "government",
+      "country": "BE"
+    }
+  ]
+}

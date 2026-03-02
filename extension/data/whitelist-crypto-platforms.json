@@ -1,0 +1,146 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-crypto-platforms.json",
+  "_description": "Officiële domeinen van gereguleerde crypto-platformen beschikbaar in de EU. Alleen platformen met MiCA/CASP-licentie, VASP-registratie of in transitieregime onder toezicht van Europese autoriteiten. NIET opgenomen: ongereguleerde, geblokkeerde of verdachte platformen.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+  "_regulatory_note": "MiCA (Markets in Crypto-Assets) is sinds eind 2024 van kracht. Platformen hebben een transitieperiode tot 1 juli 2026 om volledig gelicenseerd te zijn.",
+
+  "entries": [
+    {
+      "name": "Bitvavo",
+      "domains": ["bitvavo.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "regulation": "DNB-geregistreerd (NL), MiCA-transitie",
+      "note": "Nederlandse crypto-exchange. Populair in Benelux. Ondersteunt iDEAL en Bancontact."
+    },
+    {
+      "name": "Coinbase",
+      "domains": ["coinbase.com", "pro.coinbase.com", "exchange.coinbase.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "MiCA CASP-licentie (Ierland), beursgenoteerd (NASDAQ: COIN)",
+      "note": "Grootste beursgenoteerde crypto-exchange. Sterk voor beginners."
+    },
+    {
+      "name": "Kraken",
+      "domains": ["kraken.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "VASP-licenties in Ierland, Italië en Spanje",
+      "note": "Grote Amerikaanse exchange, sterk in Europa. Proof of Reserves audits."
+    },
+    {
+      "name": "Bitpanda",
+      "domains": ["bitpanda.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "AT"],
+      "regulation": "MiCA-gelicenseerd (Oostenrijk, Duitsland, Malta), MiFID II, E-money",
+      "note": "Oostenrijkse broker voor crypto, aandelen, ETFs en edelmetalen. 16 EU-licenties."
+    },
+    {
+      "name": "Bitstamp",
+      "domains": ["bitstamp.net"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "regulation": "VASP-registraties in Luxemburg, NL, FR, ES, IT. MiCA CASP-licentie.",
+      "note": "Oudste nog actieve exchange (2011, Slovenië). Sterk in SEPA-ondersteuning."
+    },
+    {
+      "name": "Binance",
+      "domains": ["binance.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "regulation": "DASP-registratie (Frankrijk), MiCA-transitie",
+      "note": "Grootste exchange ter wereld qua volume. Compliance-first model sinds 2025."
+    },
+    {
+      "name": "Crypto.com",
+      "domains": ["crypto.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "regulation": "MiCA-gelicenseerd, EU-goedkeuring voor crypto-derivaten (mei 2025)",
+      "note": "Breed platform met Visa-kaart, staking en DeFi-wallet."
+    },
+    {
+      "name": "Gemini",
+      "domains": ["gemini.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "GB"],
+      "regulation": "CBI-gereguleerd (Ierland)",
+      "note": "Amerikaanse exchange (Winklevoss). Sterk in compliance en beveiliging."
+    },
+    {
+      "name": "Bybit EU",
+      "domains": ["bybit.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "regulation": "MiCA CASP-licentie (via Wenen)",
+      "note": "Grote exchange voor spot en futures. EU-entiteit met MiCA-licentie."
+    },
+    {
+      "name": "OKX",
+      "domains": ["okx.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "regulation": "MiCA-transitie, VASP-registraties in meerdere EU-landen",
+      "note": "Grote exchange met Web3-wallet en DeFi-functies."
+    },
+    {
+      "name": "SwissBorg",
+      "domains": ["swissborg.com"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR"],
+      "regulation": "Zwitsers gereguleerd, EU VASP-registraties",
+      "note": "Zwitsers crypto-platform met exchange-aggregatie voor beste prijs."
+    },
+    {
+      "name": "Finst",
+      "domains": ["finst.com"],
+      "category": "crypto_exchange",
+      "available_in": ["NL", "BE"],
+      "regulation": "AFM-gereguleerd (NL), MiCA CASP-licentie",
+      "note": "Nederlands crypto-platform. Lage kosten (0.15%), Proof of Reserves."
+    },
+    {
+      "name": "CEX.io",
+      "domains": ["cex.io"],
+      "category": "crypto_exchange",
+      "available_in": ["BE", "NL", "DE", "FR", "GB"],
+      "regulation": "Meerdere EU-licenties, MiCA-compliant",
+      "note": "Sinds 2013 actief. Meest gelicenseerde exchange in Europa."
+    },
+    {
+      "name": "Ledger (hardware wallet)",
+      "domains": ["ledger.com", "shop.ledger.com"],
+      "category": "crypto_wallet",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "Frans bedrijf, PSAN-geregistreerd (AMF)",
+      "note": "Marktleider hardware wallets. Koop ALLEEN via officiële site."
+    },
+    {
+      "name": "Trezor (hardware wallet)",
+      "domains": ["trezor.io", "shop.trezor.io"],
+      "category": "crypto_wallet",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "Tsjechisch bedrijf (SatoshiLabs)",
+      "note": "Populaire hardware wallet. Koop ALLEEN via officiële site."
+    },
+    {
+      "name": "CoinGecko (informatief)",
+      "domains": ["coingecko.com"],
+      "category": "crypto_info",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "Geen financiële dienstverlener",
+      "note": "Betrouwbare bron voor crypto-koersen en marktdata."
+    },
+    {
+      "name": "CoinMarketCap (informatief)",
+      "domains": ["coinmarketcap.com"],
+      "category": "crypto_info",
+      "available_in": ["BE", "NL", "DE", "FR", "GB", "US"],
+      "regulation": "Onderdeel van Binance, geen financiële dienstverlener",
+      "note": "Populaire bron voor crypto-koersen. Eigendom van Binance."
+    }
+  ]
+}

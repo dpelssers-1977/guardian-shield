@@ -1,0 +1,300 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-be.json",
+  "_description": "Officiële domeinen van Belgische banken en financiële instellingen.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+  "entries": [
+    {
+      "name": "KBC",
+      "domains": [
+        "kbc.be",
+        "kbc.com",
+        "kbcgroup.eu",
+        "kbcbrussels.be",
+        "kbcautolease.be",
+        "kbc-group.com"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Belfius",
+      "domains": [
+        "belfius.be",
+        "belfius.com",
+        "belfiusdirect.be",
+        "belfiusinsurance.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "ING België",
+      "domains": [
+        "ing.be",
+        "ingbelgium.be",
+        "homebank.ing.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "BNP Paribas Fortis",
+      "domains": [
+        "bnpparibasfortis.be",
+        "bnpparibasfortis.com",
+        "hellobank.be",
+        "fintro.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Argenta",
+      "domains": [
+        "argenta.be",
+        "argenta.eu",
+        "argenta.com"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Crelan",
+      "domains": [
+        "crelan.be",
+        "crelan.com",
+        "europabank.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "AXA Bank",
+      "domains": [
+        "axabank.be",
+        "axa.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Keytrade Bank",
+      "domains": [
+        "keytradebank.be",
+        "keytradebank.com",
+        "keytrade.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Triodos Bank België",
+      "domains": [
+        "triodos.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "vdk bank",
+      "domains": [
+        "vdk.be",
+        "vdkbank.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Bank van Breda",
+      "domains": [
+        "bankvanbreda.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Nagelmackers",
+      "domains": [
+        "nagelmackers.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Deutsche Bank België",
+      "domains": [
+        "deutschebank.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Record Bank",
+      "domains": [
+        "recordbank.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "CBC Banque",
+      "domains": [
+        "cbc.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Degroof Petercam",
+      "domains": [
+        "degroofpetercam.com",
+        "degroofpetercam.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "MeDirect",
+      "domains": [
+        "medirect.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Santander Consumer Finance",
+      "domains": [
+        "santander.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Beobank",
+      "domains": [
+        "beobank.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "CPH Banque",
+      "domains": [
+        "cph.be"
+      ],
+      "category": "bank",
+      "country": "BE"
+    },
+    {
+      "name": "Febelfin (Belgische bankenfederatie)",
+      "domains": [
+        "febelfin.be"
+      ],
+      "category": "finance_org",
+      "country": "BE"
+    },
+    {
+      "name": "Wikifin (FSMA financiële educatie)",
+      "domains": [
+        "wikifin.be"
+      ],
+      "category": "finance_org",
+      "country": "BE"
+    },
+    {
+      "name": "FSMA (Financiële autoriteit)",
+      "domains": [
+        "fsma.be"
+      ],
+      "category": "finance_org",
+      "country": "BE"
+    },
+    {
+      "name": "NBB (Nationale Bank van België)",
+      "domains": [
+        "nbb.be",
+        "bnb.be"
+      ],
+      "category": "finance_org",
+      "country": "BE"
+    },
+    {
+      "name": "Payconiq",
+      "domains": [
+        "payconiq.be",
+        "payconiq.com"
+      ],
+      "category": "payment",
+      "country": "BE"
+    },
+    {
+      "name": "Bancontact",
+      "domains": [
+        "bancontact.com",
+        "bancontactpayconiq.com"
+      ],
+      "category": "payment",
+      "country": "BE"
+    },
+    {
+      "name": "itsme",
+      "domains": [
+        "itsme.be",
+        "itsme-id.com"
+      ],
+      "category": "identity",
+      "country": "BE"
+    },
+    {
+      "name": "Revolut (actief in BE)",
+      "domains": [
+        "revolut.com"
+      ],
+      "category": "neobank",
+      "country": "BE"
+    },
+    {
+      "name": "N26 (actief in BE)",
+      "domains": [
+        "n26.com"
+      ],
+      "category": "neobank",
+      "country": "BE"
+    },
+    {
+      "name": "Saxo Bank Belgium",
+      "domains": [
+        "home.saxo",
+        "saxobank.com",
+        "saxotrader.com"
+      ],
+      "category": "broker",
+      "country": "BE"
+    },
+    {
+      "name": "Bolero (KBC beleggingen)",
+      "domains": [
+        "bolero.be"
+      ],
+      "category": "broker",
+      "country": "BE"
+    },
+    {
+      "name": "Bunq (actief in BE)",
+      "domains": [
+        "bunq.com"
+      ],
+      "category": "neobank",
+      "country": "BE"
+    },
+    {
+      "name": "Wise (actief in BE)",
+      "domains": [
+        "wise.com"
+      ],
+      "category": "fintech",
+      "country": "BE"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-common-services.json",
+  "_description": "Officiële domeinen van veelgebruikte internationale diensten, webshops en platformen.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    {
+      "name": "Google",
+      "domains": ["google.com", "google.be", "google.nl", "google.de", "google.fr", "google.co.uk", "accounts.google.com", "myaccount.google.com", "gmail.com", "youtube.com", "drive.google.com", "docs.google.com", "maps.google.com", "play.google.com", "cloud.google.com", "chromium.org"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Microsoft",
+      "domains": ["microsoft.com", "office.com", "office365.com", "live.com", "outlook.com", "outlook.live.com", "outlook.office.com", "login.microsoftonline.com", "azure.com", "bing.com", "linkedin.com", "github.com", "xbox.com", "skype.com", "teams.microsoft.com", "onedrive.live.com", "sharepoint.com"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Apple",
+      "domains": ["apple.com", "icloud.com", "appleid.apple.com", "support.apple.com", "store.apple.com"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Amazon",
+      "domains": ["amazon.com", "amazon.nl", "amazon.de", "amazon.fr", "amazon.co.uk", "amazon.com.be", "aws.amazon.com", "prime.amazon.com"],
+      "category": "ecommerce",
+      "country": "US"
+    },
+    {
+      "name": "Bol.com",
+      "domains": ["bol.com", "partner.bol.com"],
+      "category": "ecommerce",
+      "country": "NL"
+    },
+    {
+      "name": "Coolblue",
+      "domains": ["coolblue.be", "coolblue.nl"],
+      "category": "ecommerce",
+      "country": "NL"
+    },
+    {
+      "name": "Zalando",
+      "domains": ["zalando.be", "zalando.nl", "zalando.de", "zalando.com"],
+      "category": "ecommerce",
+      "country": "DE"
+    },
+    {
+      "name": "Mediamarkt",
+      "domains": ["mediamarkt.be", "mediamarkt.nl", "mediamarkt.de"],
+      "category": "ecommerce",
+      "country": "DE"
+    },
+    {
+      "name": "IKEA",
+      "domains": ["ikea.com", "ikea.be", "ikea.nl"],
+      "category": "ecommerce",
+      "country": "SE"
+    },
+    {
+      "name": "AliExpress",
+      "domains": ["aliexpress.com"],
+      "category": "ecommerce",
+      "country": "CN"
+    },
+    {
+      "name": "eBay",
+      "domains": ["ebay.com", "ebay.be", "ebay.nl", "ebay.de", "ebay.co.uk"],
+      "category": "ecommerce",
+      "country": "US"
+    },
+    {
+      "name": "PayPal",
+      "domains": ["paypal.com", "paypal.be", "paypal.nl"],
+      "category": "payment",
+      "country": "US"
+    },
+    {
+      "name": "Stripe",
+      "domains": ["stripe.com"],
+      "category": "payment",
+      "country": "US"
+    },
+    {
+      "name": "Mollie",
+      "domains": ["mollie.com"],
+      "category": "payment",
+      "country": "NL"
+    },
+    {
+      "name": "Facebook / Meta",
+      "domains": ["facebook.com", "fb.com", "messenger.com", "instagram.com", "whatsapp.com", "meta.com", "threads.net"],
+      "category": "social",
+      "country": "US"
+    },
+    {
+      "name": "X (Twitter)",
+      "domains": ["x.com", "twitter.com"],
+      "category": "social",
+      "country": "US"
+    },
+    {
+      "name": "TikTok",
+      "domains": ["tiktok.com"],
+      "category": "social",
+      "country": "CN"
+    },
+    {
+      "name": "Reddit",
+      "domains": ["reddit.com"],
+      "category": "social",
+      "country": "US"
+    },
+    {
+      "name": "Pinterest",
+      "domains": ["pinterest.com", "pinterest.be"],
+      "category": "social",
+      "country": "US"
+    },
+    {
+      "name": "Snapchat",
+      "domains": ["snapchat.com"],
+      "category": "social",
+      "country": "US"
+    },
+    {
+      "name": "Netflix",
+      "domains": ["netflix.com"],
+      "category": "entertainment",
+      "country": "US"
+    },
+    {
+      "name": "Disney+",
+      "domains": ["disneyplus.com"],
+      "category": "entertainment",
+      "country": "US"
+    },
+    {
+      "name": "Spotify",
+      "domains": ["spotify.com", "open.spotify.com"],
+      "category": "entertainment",
+      "country": "SE"
+    },
+    {
+      "name": "Twitch",
+      "domains": ["twitch.tv"],
+      "category": "entertainment",
+      "country": "US"
+    },
+    {
+      "name": "Wikipedia",
+      "domains": ["wikipedia.org", "nl.wikipedia.org", "en.wikipedia.org", "fr.wikipedia.org", "de.wikipedia.org"],
+      "category": "education",
+      "country": "US"
+    },
+    {
+      "name": "Marktplaats",
+      "domains": ["marktplaats.nl"],
+      "category": "ecommerce",
+      "country": "NL"
+    },
+    {
+      "name": "2dehands / 2ememain",
+      "domains": ["2dehands.be", "2ememain.be"],
+      "category": "ecommerce",
+      "country": "BE"
+    },
+    {
+      "name": "Immoweb",
+      "domains": ["immoweb.be"],
+      "category": "real_estate",
+      "country": "BE"
+    },
+    {
+      "name": "Funda",
+      "domains": ["funda.nl"],
+      "category": "real_estate",
+      "country": "NL"
+    },
+    {
+      "name": "Booking.com",
+      "domains": ["booking.com"],
+      "category": "travel",
+      "country": "NL"
+    },
+    {
+      "name": "Dropbox",
+      "domains": ["dropbox.com"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Slack",
+      "domains": ["slack.com"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Zoom",
+      "domains": ["zoom.us"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "Anthropic (Claude)",
+      "domains": ["anthropic.com", "claude.ai"],
+      "category": "tech",
+      "country": "US"
+    },
+    {
+      "name": "OpenAI (ChatGPT)",
+      "domains": ["openai.com", "chatgpt.com", "chat.openai.com"],
+      "category": "tech",
+      "country": "US"
+    }
+  ]
+}

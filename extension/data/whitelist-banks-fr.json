@@ -1,0 +1,30 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-fr.json",
+  "_description": "Officiële domeinen van Franse banken, overheid en grote diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    { "name": "Crédit Agricole", "domains": ["credit-agricole.fr", "ca-paris.fr"], "category": "bank", "country": "FR" },
+    { "name": "BNP Paribas", "domains": ["bnpparibas.com", "bnpparibas.fr", "mabanque.bnpparibas"], "category": "bank", "country": "FR" },
+    { "name": "Société Générale", "domains": ["societegenerale.fr", "societegenerale.com"], "category": "bank", "country": "FR" },
+    { "name": "La Banque Postale", "domains": ["labanquepostale.fr"], "category": "bank", "country": "FR" },
+    { "name": "Crédit Mutuel", "domains": ["creditmutuel.fr"], "category": "bank", "country": "FR" },
+    { "name": "CIC", "domains": ["cic.fr"], "category": "bank", "country": "FR" },
+    { "name": "LCL", "domains": ["lcl.fr"], "category": "bank", "country": "FR" },
+    { "name": "Caisse d'Épargne", "domains": ["caisse-epargne.fr"], "category": "bank", "country": "FR" },
+    { "name": "Banque Populaire", "domains": ["banquepopulaire.fr"], "category": "bank", "country": "FR" },
+    { "name": "Boursorama", "domains": ["boursorama.com", "boursobank.com"], "category": "bank", "country": "FR" },
+    { "name": "Fortuneo", "domains": ["fortuneo.fr"], "category": "bank", "country": "FR" },
+    { "name": "ING France", "domains": ["ing.fr"], "category": "bank", "country": "FR" },
+    { "name": "Gouvernement français", "domains": ["gouv.fr", "gouvernement.fr", "france.fr", "service-public.fr"], "category": "government", "country": "FR" },
+    { "name": "Impôts (Belastingen)", "domains": ["impots.gouv.fr"], "category": "government", "country": "FR" },
+    { "name": "Ameli (Ziekteverzekering)", "domains": ["ameli.fr"], "category": "healthcare", "country": "FR" },
+    { "name": "CAF (Gezinsuitkeringen)", "domains": ["caf.fr"], "category": "government", "country": "FR" },
+    { "name": "Pôle Emploi / France Travail", "domains": ["pole-emploi.fr", "francetravail.fr"], "category": "government", "country": "FR" },
+    { "name": "FranceConnect", "domains": ["franceconnect.gouv.fr"], "category": "identity", "country": "FR" },
+    { "name": "La Poste", "domains": ["laposte.fr", "laposte.net", "colissimo.fr"], "category": "postal", "country": "FR" },
+    { "name": "SNCF", "domains": ["sncf.com", "sncf-connect.com", "oui.sncf"], "category": "transport", "country": "FR" },
+    { "name": "ANSSI (Cybersecurity)", "domains": ["ssi.gouv.fr", "cert.ssi.gouv.fr"], "category": "cybersecurity", "country": "FR" }
+  ]
+}

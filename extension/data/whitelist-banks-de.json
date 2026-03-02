@@ -1,0 +1,29 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-de.json",
+  "_description": "Officiële domeinen van Duitse banken, overheid en grote diensten.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+
+  "entries": [
+    { "name": "Sparkasse", "domains": ["sparkasse.de"], "category": "bank", "country": "DE" },
+    { "name": "Deutsche Bank", "domains": ["deutsche-bank.de", "db.com"], "category": "bank", "country": "DE" },
+    { "name": "Commerzbank", "domains": ["commerzbank.de", "commerzbank.com"], "category": "bank", "country": "DE" },
+    { "name": "Postbank", "domains": ["postbank.de"], "category": "bank", "country": "DE" },
+    { "name": "ING Deutschland", "domains": ["ing.de"], "category": "bank", "country": "DE" },
+    { "name": "DKB", "domains": ["dkb.de"], "category": "bank", "country": "DE" },
+    { "name": "Consorsbank", "domains": ["consorsbank.de"], "category": "bank", "country": "DE" },
+    { "name": "Comdirect", "domains": ["comdirect.de"], "category": "bank", "country": "DE" },
+    { "name": "N26", "domains": ["n26.com"], "category": "bank", "country": "DE" },
+    { "name": "HypoVereinsbank", "domains": ["hypovereinsbank.de"], "category": "bank", "country": "DE" },
+    { "name": "Volksbanken Raiffeisenbanken", "domains": ["vr.de", "volksbank.de"], "category": "bank", "country": "DE" },
+    { "name": "Targobank", "domains": ["targobank.de"], "category": "bank", "country": "DE" },
+    { "name": "Bundesregierung", "domains": ["bundesregierung.de", "bund.de"], "category": "government", "country": "DE" },
+    { "name": "ELSTER (Belastingen)", "domains": ["elster.de"], "category": "government", "country": "DE" },
+    { "name": "Bundesagentur für Arbeit", "domains": ["arbeitsagentur.de"], "category": "government", "country": "DE" },
+    { "name": "Deutsche Rentenversicherung", "domains": ["deutsche-rentenversicherung.de"], "category": "government", "country": "DE" },
+    { "name": "BSI (Cybersecurity)", "domains": ["bsi.bund.de", "bsi-fuer-buerger.de"], "category": "cybersecurity", "country": "DE" },
+    { "name": "Deutsche Post / DHL", "domains": ["deutschepost.de", "dhl.de", "dhl.com"], "category": "postal", "country": "DE" },
+    { "name": "Deutsche Bahn", "domains": ["bahn.de", "deutschebahn.com"], "category": "transport", "country": "DE" },
+    { "name": "Deutsche Telekom", "domains": ["telekom.de", "t-online.de"], "category": "telecom", "country": "DE" }
+  ]
+}

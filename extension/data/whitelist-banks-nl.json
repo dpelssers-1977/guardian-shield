@@ -1,0 +1,230 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/extension/data/whitelist-banks-nl.json",
+  "_description": "Officiële domeinen van Nederlandse banken en financiële instellingen.",
+  "_last_updated": "2026-03-02",
+  "_version": 1,
+  "entries": [
+    {
+      "name": "ING",
+      "domains": [
+        "ing.nl",
+        "ing.com",
+        "mijn.ing.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Rabobank",
+      "domains": [
+        "rabobank.nl",
+        "rabobank.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "ABN AMRO",
+      "domains": [
+        "abnamro.nl",
+        "abnamro.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "SNS Bank",
+      "domains": [
+        "snsbank.nl",
+        "sns.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "ASN Bank",
+      "domains": [
+        "asnbank.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Knab",
+      "domains": [
+        "knab.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Bunq",
+      "domains": [
+        "bunq.com",
+        "bunq.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Triodos Bank",
+      "domains": [
+        "triodos.nl",
+        "triodos.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "RegioBank",
+      "domains": [
+        "regiobank.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "de Volksbank",
+      "domains": [
+        "devolksbank.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "NIBC",
+      "domains": [
+        "nibc.nl",
+        "nibc.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Van Lanschot Kempen",
+      "domains": [
+        "vanlanschot.nl",
+        "vanlanschotkempen.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Nationale-Nederlanden",
+      "domains": [
+        "nn.nl",
+        "nn.com",
+        "nationale-nederlanden.nl"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Aegon",
+      "domains": [
+        "aegon.nl",
+        "aegon.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "Revolut (NL)",
+      "domains": [
+        "revolut.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "N26 (NL)",
+      "domains": [
+        "n26.com"
+      ],
+      "category": "bank",
+      "country": "NL"
+    },
+    {
+      "name": "DNB (De Nederlandsche Bank)",
+      "domains": [
+        "dnb.nl"
+      ],
+      "category": "finance_org",
+      "country": "NL"
+    },
+    {
+      "name": "AFM (Autoriteit Financiële Markten)",
+      "domains": [
+        "afm.nl"
+      ],
+      "category": "finance_org",
+      "country": "NL"
+    },
+    {
+      "name": "NVB (Nederlandse Vereniging van Banken)",
+      "domains": [
+        "nvb.nl"
+      ],
+      "category": "finance_org",
+      "country": "NL"
+    },
+    {
+      "name": "Betaalvereniging Nederland",
+      "domains": [
+        "betaalvereniging.nl"
+      ],
+      "category": "finance_org",
+      "country": "NL"
+    },
+    {
+      "name": "iDEAL",
+      "domains": [
+        "ideal.nl"
+      ],
+      "category": "payment",
+      "country": "NL"
+    },
+    {
+      "name": "Tikkie",
+      "domains": [
+        "tikkie.me"
+      ],
+      "category": "payment",
+      "country": "NL"
+    },
+    {
+      "name": "DigiD",
+      "domains": [
+        "digid.nl",
+        "mijn.digid.nl"
+      ],
+      "category": "identity",
+      "country": "NL"
+    },
+    {
+      "name": "Saxo Bank Nederland",
+      "domains": [
+        "home.saxo",
+        "saxobank.com"
+      ],
+      "category": "broker",
+      "country": "NL"
+    },
+    {
+      "name": "Wise (actief in NL)",
+      "domains": [
+        "wise.com"
+      ],
+      "category": "fintech",
+      "country": "NL"
+    },
+    {
+      "name": "Bolero (ook in NL gebruikt)",
+      "domains": [
+        "bolero.be"
+      ],
+      "category": "broker",
+      "country": "NL"
+    }
+  ]
+}
