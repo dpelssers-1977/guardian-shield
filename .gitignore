@@ -1,0 +1,89 @@
+# ============================================================
+# Guardian Shield — .gitignore
+# Bestandslocatie in project: /guardian-shield/.gitignore
+# ============================================================
+
+# ----- Cryptografische sleutels (KRITIEK: NOOIT COMMITTEN) -----
+signing_key.pem
+*.pem
+!verify_key.pem
+
+# ----- Environment & secrets -----
+.env
+.env.local
+.env.production
+*.env
+
+# ----- Node.js / Extension / Dashboard -----
+node_modules/
+dist/
+build/
+*.tgz
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----- Python / Backend -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- Database -----
+*.sqlite
+*.sqlite3
+*.db
+
+# ----- AI / Vector store -----
+vectorstore/
+*.gguf
+models/
+
+# ----- IDE -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----- OS -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ----- Logs -----
+logs/
+*.log
+
+# ----- Builds & packages -----
+*.crx
+*.xpi
+*.zip
+release/
+
+# ----- Test & coverage -----
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage/
+*.lcov
+
+# ----- Threat intel working data -----
+threat-intel/output/
+threat-intel/cache/
+threat-intel/temp/

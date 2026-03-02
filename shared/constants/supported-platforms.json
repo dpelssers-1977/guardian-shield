@@ -1,0 +1,97 @@
+{
+  "_comment": "Bestandslocatie in project: /guardian-shield/shared/constants/supported-platforms.json",
+  "_description": "Ondersteunde platformen, browsers en configuratie per component.",
+
+  "browsers": {
+    "chrome": {
+      "name": "Google Chrome",
+      "manifest_version": 3,
+      "manifest_file": "manifest.json",
+      "min_version": "110",
+      "store_url": "https://chrome.google.com/webstore",
+      "supported": true
+    },
+    "edge": {
+      "name": "Microsoft Edge",
+      "manifest_version": 3,
+      "manifest_file": "manifest.json",
+      "min_version": "110",
+      "store_url": "https://microsoftedge.microsoft.com/addons",
+      "supported": true,
+      "notes": "Gebruikt dezelfde manifest als Chrome (Chromium-based)"
+    },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "manifest_version": 3,
+      "manifest_file": "manifest_firefox.json",
+      "min_version": "115",
+      "store_url": "https://addons.mozilla.org",
+      "supported": true,
+      "notes": "Vereist apart manifest wegens API-verschillen"
+    }
+  },
+
+  "operating_systems": {
+    "windows": {
+      "name": "Windows",
+      "min_version": "10",
+      "backend_supported": true,
+      "installer_type": "inno_setup",
+      "service_type": "windows_service",
+      "notes": "Volledige ondersteuning inclusief registry monitoring en Windows Defender integratie"
+    },
+    "macos": {
+      "name": "macOS",
+      "min_version": "12.0",
+      "backend_supported": true,
+      "installer_type": "dmg",
+      "service_type": "launchd",
+      "notes": "Volledige ondersteuning inclusief Gatekeeper en XProtect integratie"
+    },
+    "linux": {
+      "name": "Linux",
+      "min_version": "Ubuntu 22.04 / Debian 12 / Fedora 38",
+      "backend_supported": true,
+      "installer_type": "deb_rpm_appimage",
+      "service_type": "systemd",
+      "notes": "Volledige ondersteuning, sommige features afhankelijk van distributie"
+    }
+  },
+
+  "email_providers": {
+    "gmail": {
+      "name": "Gmail (Web)",
+      "url_pattern": "mail.google.com",
+      "supported": true,
+      "scan_method": "dom_injection"
+    },
+    "outlook": {
+      "name": "Outlook (Web)",
+      "url_pattern": "outlook.live.com",
+      "supported": true,
+      "scan_method": "dom_injection"
+    },
+    "outlook_365": {
+      "name": "Outlook 365 (Web)",
+      "url_pattern": "outlook.office.com",
+      "supported": true,
+      "scan_method": "dom_injection"
+    }
+  },
+
+  "languages": {
+    "nl": { "name": "Nederlands", "native_name": "Nederlands", "default_country": "BE" },
+    "fr": { "name": "Frans", "native_name": "Français", "default_country": "FR" },
+    "en": { "name": "Engels", "native_name": "English", "default_country": "GB" },
+    "de": { "name": "Duits", "native_name": "Deutsch", "default_country": "DE" }
+  },
+
+  "countries": {
+    "BE": { "name": "België", "languages": ["nl", "fr", "de"], "priority": 1 },
+    "NL": { "name": "Nederland", "languages": ["nl"], "priority": 1 },
+    "DE": { "name": "Duitsland", "languages": ["de"], "priority": 2 },
+    "FR": { "name": "Frankrijk", "languages": ["fr"], "priority": 2 },
+    "GB": { "name": "Verenigd Koninkrijk", "languages": ["en"], "priority": 2 },
+    "US": { "name": "Verenigde Staten", "languages": ["en"], "priority": 3 }
+  }
+}

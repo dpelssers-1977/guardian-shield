@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://guardianshield.org/schemas/scan-result.schema.json",
+  "$comment": "Bestandslocatie in project: /guardian-shield/shared/schemas/scan-result.schema.json",
+  "title": "Scan Result",
+  "description": "Schema voor het resultaat van een Guardian Shield scan (URL, bestand, email, of systeem).",
+  "type": "object",
+  "required": ["id", "scan_type", "target", "risk_score", "verdict", "timestamp"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unieke identifier van het scan-resultaat (UUID v4)"
+    },
+    "scan_type": {
+      "type": "string",
+      "description": "Type scan dat is uitgevoerd",
+      "enum": [
+        "url_analysis",
+        "email_analysis",
+        "file_scan",
+        "download_check",
+        "process_scan",
+        "network_scan",
+        "system_audit",
+        "password_check"
+      ]
+    },
+    "target": {
+      "type": "string",
+      "description": "Wat is gescand (URL, bestandsnaam, email-onderwerp, proces-naam, etc.)"
+    },
+    "risk_score": {
+      "type": "integer",
+      "description": "Risicoscore van 0 (veilig) tot 100 (kritiek gevaar)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "verdict": {
+      "type": "string",
+      "description": "Eindoordeel",
+      "enum": ["safe", "suspicious", "dangerous", "critical", "unknown"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Tijdstip van de scan (ISO 8601)"
+    },
+    "duration_ms": {
+      "type": "integer",
+      "description": "Duur van de scan in milliseconden",
+      "minimum": 0
+    },
+    "checks_performed": {
+      "type": "array",
+      "description": "Lijst van uitgevoerde controles en hun resultaat",
+      "items": {
+        "type": "object",
+        "required": ["check_name", "passed"],
+        "properties": {
+          "check_name": {
+            "type": "string",
+            "description": "Naam van de controle (bv. 'whitelist_match', 'typosquatting', 'ssl_valid')"
+          },
+          "passed": {
+            "type": "boolean",
+            "description": "Heeft de controle de scan doorstaan?"
+          },
+          "details": {
+            "type": "string",
+            "description": "Extra details over het resultaat"
+          },
+          "risk_contribution": {
+            "type": "integer",
+            "description": "Bijdrage aan de totale risicoscore (0-100)",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    },
+    "matched_threats": {
+      "type": "array",
+      "description": "Gevonden overeenkomsten in de threat database",
+      "items": {
+        "type": "object",
+        "properties": {
+          "threat_id": { "type": "string" },
+          "threat_type": { "type": "string" },
+          "match_type": {
+            "type": "string",
+            "enum": ["exact", "fuzzy", "pattern", "hash"]
+          },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    },
+    "user_action": {
+      "type": "string",
+      "description": "Actie die de gebruiker heeft ondernomen",
+      "enum": ["blocked", "warned", "allowed", "reported", "ignored", "none"]
+    },
+    "explanation": {
+      "type": "object",
+      "description": "Menselijk leesbare uitleg van het resultaat (meertalig)",
+      "properties": {
+        "summary": { "type": "string", "description": "Korte samenvatting" },
+        "details": { "type": "string", "description": "Gedetailleerde uitleg" },
+        "advice": { "type": "string", "description": "Advies aan de gebruiker" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://guardianshield.org/schemas/threat-entry.schema.json",
+  "$comment": "Bestandslocatie in project: /guardian-shield/shared/schemas/threat-entry.schema.json",
+  "title": "Threat Entry",
+  "description": "Schema voor een individuele dreiging in de Guardian Shield threat database.",
+  "type": "object",
+  "required": ["id", "type", "indicator", "severity", "source", "first_seen"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unieke identifier (UUID v4)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type dreiging",
+      "enum": [
+        "phishing_url",
+        "malware_url",
+        "malware_hash",
+        "scam_phone",
+        "scam_iban",
+        "scam_email",
+        "scam_pattern",
+        "fraudulent_domain",
+        "c2_server",
+        "exploit_kit",
+        "cryptominer",
+        "tracker",
+        "cve"
+      ]
+    },
+    "indicator": {
+      "type": "string",
+      "description": "De feitelijke dreiging-indicator (URL, hash, telefoonnummer, IBAN, domein, etc.)"
+    },
+    "severity": {
+      "type": "string",
+      "description": "Ernst van de dreiging",
+      "enum": ["low", "medium", "high", "critical"]
+    },
+    "confidence": {
+      "type": "number",
+      "description": "Betrouwbaarheidsscore (0.0 - 1.0)",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "source": {
+      "type": "string",
+      "description": "Herkomst van de dreiging-informatie",
+      "enum": [
+        "phishtank",
+        "openphish",
+        "urlhaus",
+        "malwarebazaar",
+        "threatfox",
+        "cert_be",
+        "safeonweb",
+        "fraudehelpdesk_nl",
+        "cve_nvd",
+        "community",
+        "manual"
+      ]
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Datum/tijd eerste detectie (ISO 8601)"
+    },
+    "last_seen": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Datum/tijd laatste bevestiging (ISO 8601)"
+    },
+    "active": {
+      "type": "boolean",
+      "description": "Is de dreiging nog actief?",
+      "default": true
+    },
+    "countries": {
+      "type": "array",
+      "description": "Doellanden (ISO 3166-1 alpha-2)",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "description": "Talen waarin de dreiging voorkomt (ISO 639-1)",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      }
+    },
+    "impersonated_brand": {
+      "type": "string",
+      "description": "Nagebootst merk of organisatie (bv. 'KBC', 'bpost', 'Belastingdienst')"
+    },
+    "description": {
+      "type": "string",
+      "description": "Menselijk leesbare beschrijving van de dreiging"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Extra labels voor classificatie",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ttl_days": {
+      "type": "integer",
+      "description": "Aantal dagen waarna de dreiging automatisch als inactief wordt gemarkeerd",
+      "minimum": 1,
+      "default": 90
+    }
+  },
+  "additionalProperties": false
+}

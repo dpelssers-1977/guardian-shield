@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://guardianshield.org/schemas/config.schema.json",
+  "$comment": "Bestandslocatie in project: /guardian-shield/shared/schemas/config.schema.json",
+  "title": "Guardian Shield Configuration",
+  "description": "Schema voor de gebruikersconfiguratie van Guardian Shield.",
+  "type": "object",
+  "properties": {
+    "language": {
+      "type": "string",
+      "description": "Interface taal",
+      "enum": ["nl", "fr", "en", "de"],
+      "default": "nl"
+    },
+    "protection": {
+      "type": "object",
+      "description": "Beschermingsinstellingen",
+      "properties": {
+        "website_verification": { "type": "boolean", "default": true },
+        "email_scanning": { "type": "boolean", "default": true },
+        "download_protection": { "type": "boolean", "default": true },
+        "tracker_blocking": { "type": "boolean", "default": true },
+        "keylogger_protection": { "type": "boolean", "default": true },
+        "password_breach_check": { "type": "boolean", "default": true },
+        "link_hover_preview": { "type": "boolean", "default": true },
+        "form_protection": { "type": "boolean", "default": true }
+      }
+    },
+    "notifications": {
+      "type": "object",
+      "description": "Notificatie-voorkeuren",
+      "properties": {
+        "enabled": { "type": "boolean", "default": true },
+        "sound": { "type": "boolean", "default": true },
+        "minimum_severity": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "critical"],
+          "default": "medium"
+        }
+      }
+    },
+    "updates": {
+      "type": "object",
+      "description": "Update-instellingen",
+      "properties": {
+        "auto_update_whitelists": { "type": "boolean", "default": true },
+        "auto_update_threat_db": { "type": "boolean", "default": true },
+        "update_interval_hours": { "type": "integer", "minimum": 1, "default": 24 },
+        "update_server_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "description": "Privacy-instellingen",
+      "properties": {
+        "send_anonymous_statistics": { "type": "boolean", "default": false },
+        "report_phishing_automatically": { "type": "boolean", "default": false },
+        "local_only_mode": { "type": "boolean", "default": false }
+      }
+    },
+    "custom_whitelist": {
+      "type": "array",
+      "description": "Door de gebruiker handmatig toegevoegde vertrouwde domeinen",
+      "items": {
+        "type": "string",
+        "format": "hostname"
+      },
+      "default": []
+    },
+    "family_mode": {
+      "type": "boolean",
+      "description": "Vereenvoudigd stoplicht-dashboard (groen/oranje/rood)",
+      "default": false
+    },
+    "backend": {
+      "type": "object",
+      "description": "Backend verbindingsinstellingen",
+      "properties": {
+        "enabled": { "type": "boolean", "default": false },
+        "host": { "type": "string", "default": "localhost" },
+        "port": { "type": "integer", "default": 7777 }
+      }
+    }
+  },
+  "additionalProperties": false
+}
